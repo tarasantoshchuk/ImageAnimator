@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tarasantoshchuk.imageanimator.sample.MainActivity">
+
+    <ImageView
+        android:id="@+id/start_animation"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="top|left"
+        android:scaleType="fitCenter"/>
+    <ImageView
+        android:id="@+id/middle_animation"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="top|right"
+        android:scaleType="center"/>
+    <ImageView
+        android:id="@+id/end_animation"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|right"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:id="@+id/moving_image"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="top|left"
+        android:scaleType="matrix"/>
+
+</FrameLayout>
